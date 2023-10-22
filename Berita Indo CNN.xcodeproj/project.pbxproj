@@ -17,6 +17,16 @@
 		2F8249C52AE553EC0040BF74 /* Berita_Indo_CNNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249C42AE553EC0040BF74 /* Berita_Indo_CNNTests.swift */; };
 		2F8249CF2AE553EC0040BF74 /* Berita_Indo_CNNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249CE2AE553EC0040BF74 /* Berita_Indo_CNNUITests.swift */; };
 		2F8249D12AE553EC0040BF74 /* Berita_Indo_CNNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249D02AE553EC0040BF74 /* Berita_Indo_CNNUITestsLaunchTests.swift */; };
+		2F8249E12AE5542A0040BF74 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8249E02AE5542A0040BF74 /* Home.storyboard */; };
+		2F8249E32AE554380040BF74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249E22AE554380040BF74 /* HomeViewController.swift */; };
+		2F8249E52AE568140040BF74 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249E42AE568140040BF74 /* NewsResponse.swift */; };
+		2F8249E72AE5685A0040BF74 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249E62AE5685A0040BF74 /* News.swift */; };
+		2F8249E92AE568B00040BF74 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249E82AE568B00040BF74 /* Image.swift */; };
+		2F8249EB2AE56DE30040BF74 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249EA2AE56DE30040BF74 /* ApiServices.swift */; };
+		2F8249EE2AE56E730040BF74 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8249ED2AE56E730040BF74 /* Alamofire */; };
+		2F8249F02AE57D0D0040BF74 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249EF2AE57D0D0040BF74 /* HomeViewCell.swift */; };
+		2F8249F42AE581970040BF74 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8249F32AE581970040BF74 /* SDWebImage */; };
+		2F8249F62AE581970040BF74 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8249F52AE581970040BF74 /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,13 @@
 		2F8249CA2AE553EC0040BF74 /* Berita Indo CNNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berita Indo CNNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8249CE2AE553EC0040BF74 /* Berita_Indo_CNNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berita_Indo_CNNUITests.swift; sourceTree = "<group>"; };
 		2F8249D02AE553EC0040BF74 /* Berita_Indo_CNNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berita_Indo_CNNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F8249E02AE5542A0040BF74 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2F8249E22AE554380040BF74 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2F8249E42AE568140040BF74 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		2F8249E62AE5685A0040BF74 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		2F8249E82AE568B00040BF74 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		2F8249EA2AE56DE30040BF74 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		2F8249EF2AE57D0D0040BF74 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8249F42AE581970040BF74 /* SDWebImage in Frameworks */,
+				2F8249F62AE581970040BF74 /* SDWebImageMapKit in Frameworks */,
+				2F8249EE2AE56E730040BF74 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +121,9 @@
 		2F8249A92AE553EB0040BF74 /* Berita Indo CNN */ = {
 			isa = PBXGroup;
 			children = (
+				2F8249DF2AE5540F0040BF74 /* Services */,
+				2F8249DE2AE5540A0040BF74 /* Model */,
+				2F8249DD2AE554040040BF74 /* Home */,
 				2F8249AA2AE553EB0040BF74 /* AppDelegate.swift */,
 				2F8249AC2AE553EB0040BF74 /* SceneDelegate.swift */,
 				2F8249AE2AE553EB0040BF74 /* ViewController.swift */,
@@ -130,6 +153,34 @@
 			path = "Berita Indo CNNUITests";
 			sourceTree = "<group>";
 		};
+		2F8249DD2AE554040040BF74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2F8249E02AE5542A0040BF74 /* Home.storyboard */,
+				2F8249E22AE554380040BF74 /* HomeViewController.swift */,
+				2F8249EF2AE57D0D0040BF74 /* HomeViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2F8249DE2AE5540A0040BF74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F8249E42AE568140040BF74 /* NewsResponse.swift */,
+				2F8249E62AE5685A0040BF74 /* News.swift */,
+				2F8249E82AE568B00040BF74 /* Image.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F8249DF2AE5540F0040BF74 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2F8249EA2AE56DE30040BF74 /* ApiServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +197,11 @@
 			dependencies = (
 			);
 			name = "Berita Indo CNN";
+			packageProductDependencies = (
+				2F8249ED2AE56E730040BF74 /* Alamofire */,
+				2F8249F32AE581970040BF74 /* SDWebImage */,
+				2F8249F52AE581970040BF74 /* SDWebImageMapKit */,
+			);
 			productName = "Berita Indo CNN";
 			productReference = 2F8249A72AE553EB0040BF74 /* Berita Indo CNN.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +274,10 @@
 				Base,
 			);
 			mainGroup = 2F82499E2AE553EB0040BF74;
+			packageReferences = (
+				2F8249EC2AE56E730040BF74 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2F8249F22AE581970040BF74 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 2F8249A82AE553EB0040BF74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +297,7 @@
 				2F8249BA2AE553EC0040BF74 /* LaunchScreen.storyboard in Resources */,
 				2F8249B72AE553EC0040BF74 /* Assets.xcassets in Resources */,
 				2F8249B22AE553EB0040BF74 /* Main.storyboard in Resources */,
+				2F8249E12AE5542A0040BF74 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8249E32AE554380040BF74 /* HomeViewController.swift in Sources */,
+				2F8249E92AE568B00040BF74 /* Image.swift in Sources */,
 				2F8249AF2AE553EB0040BF74 /* ViewController.swift in Sources */,
 				2F8249AB2AE553EB0040BF74 /* AppDelegate.swift in Sources */,
 				2F8249B52AE553EB0040BF74 /* Berita_Indo_CNN.xcdatamodeld in Sources */,
+				2F8249E72AE5685A0040BF74 /* News.swift in Sources */,
+				2F8249EB2AE56DE30040BF74 /* ApiServices.swift in Sources */,
+				2F8249F02AE57D0D0040BF74 /* HomeViewCell.swift in Sources */,
 				2F8249AD2AE553EB0040BF74 /* SceneDelegate.swift in Sources */,
+				2F8249E52AE568140040BF74 /* NewsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,8 +519,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,8 +546,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,6 +676,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F8249EC2AE56E730040BF74 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+		2F8249F22AE581970040BF74 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F8249ED2AE56E730040BF74 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F8249EC2AE56E730040BF74 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2F8249F32AE581970040BF74 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F8249F22AE581970040BF74 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2F8249F52AE581970040BF74 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F8249F22AE581970040BF74 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2F8249B32AE553EB0040BF74 /* Berita_Indo_CNN.xcdatamodeld */ = {
