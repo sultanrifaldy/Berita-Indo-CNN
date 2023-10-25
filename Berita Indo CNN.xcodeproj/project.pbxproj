@@ -27,6 +27,8 @@
 		2F8249F02AE57D0D0040BF74 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249EF2AE57D0D0040BF74 /* HomeViewCell.swift */; };
 		2F8249F42AE581970040BF74 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8249F32AE581970040BF74 /* SDWebImage */; };
 		2F8249F62AE581970040BF74 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8249F52AE581970040BF74 /* SDWebImageMapKit */; };
+		2F8249F82AE6478D0040BF74 /* CategoriesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249F72AE6478D0040BF74 /* CategoriesViewCell.swift */; };
+		2F8249FA2AE775F40040BF74 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8249F92AE775F40040BF74 /* CategoriesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		2F8249E82AE568B00040BF74 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		2F8249EA2AE56DE30040BF74 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
 		2F8249EF2AE57D0D0040BF74 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		2F8249F72AE6478D0040BF74 /* CategoriesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewCell.swift; sourceTree = "<group>"; };
+		2F8249F92AE775F40040BF74 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 				2F8249E02AE5542A0040BF74 /* Home.storyboard */,
 				2F8249E22AE554380040BF74 /* HomeViewController.swift */,
 				2F8249EF2AE57D0D0040BF74 /* HomeViewCell.swift */,
+				2F8249F72AE6478D0040BF74 /* CategoriesViewCell.swift */,
+				2F8249F92AE775F40040BF74 /* CategoriesCollectionViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -328,10 +334,12 @@
 				2F8249AB2AE553EB0040BF74 /* AppDelegate.swift in Sources */,
 				2F8249B52AE553EB0040BF74 /* Berita_Indo_CNN.xcdatamodeld in Sources */,
 				2F8249E72AE5685A0040BF74 /* News.swift in Sources */,
+				2F8249FA2AE775F40040BF74 /* CategoriesCollectionViewCell.swift in Sources */,
 				2F8249EB2AE56DE30040BF74 /* ApiServices.swift in Sources */,
 				2F8249F02AE57D0D0040BF74 /* HomeViewCell.swift in Sources */,
 				2F8249AD2AE553EB0040BF74 /* SceneDelegate.swift in Sources */,
 				2F8249E52AE568140040BF74 /* NewsResponse.swift in Sources */,
+				2F8249F82AE6478D0040BF74 /* CategoriesViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
