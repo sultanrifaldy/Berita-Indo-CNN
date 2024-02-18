@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var latestNews: [News] = []
+    var unfilteredLatestNews: [News] = []
     
     let buttonLabels = ["Semua", "Politik", "Olahraga", "Internasional", "Kuliner", "Otomotif", "Selebriti"]
     
@@ -30,6 +31,7 @@ class HomeViewController: UIViewController {
             switch result {
             case .success(let newsList):
                 self.latestNews = newsList
+                self.unfilteredLatestNews = newsList
                 self.tableView.reloadData()
             case .failure(let error):
                 print(error)
@@ -91,7 +93,14 @@ extension HomeViewController: UICollectionViewDataSource {
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Button \(buttonLabels[indexPath.item]) tapped")
-        
+//        latestNews = unfilteredLatestNews.filter({ news in
+//            if buttonLabels[indexPath.item] == "Semua" {
+//                return true
+//            } else {
+//                return news.link.contains(buttonLabels[indexPath.item])
+//            }
+//        })
+//        return latestNews.startIndex
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {

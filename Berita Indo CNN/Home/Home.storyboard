@@ -109,7 +109,7 @@
                                                         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="categories_collection" id="p6M-5C-IQv" customClass="CategoriesCollectionViewCell" customModule="Berita_Indo_CNN" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="6" width="152" height="59"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jkU-zG-Yp9">
+                                                            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jkU-zG-Yp9">
                                                                 <rect key="frame" x="0.0" y="0.0" width="152" height="59"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
@@ -124,8 +124,8 @@
                                                                     </button>
                                                                 </subviews>
                                                                 <constraints>
-                                                                    <constraint firstItem="hAZ-ar-yX8" firstAttribute="centerY" secondItem="jkU-zG-Yp9" secondAttribute="centerY" id="2sd-xE-HsG"/>
                                                                     <constraint firstAttribute="bottom" secondItem="hAZ-ar-yX8" secondAttribute="bottom" constant="12" id="9Wm-Jk-BRh"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="hAZ-ar-yX8" secondAttribute="trailing" constant="16" id="IRc-tj-nSr"/>
                                                                     <constraint firstItem="hAZ-ar-yX8" firstAttribute="leading" secondItem="jkU-zG-Yp9" secondAttribute="leading" constant="12" id="OIn-qy-868"/>
                                                                     <constraint firstItem="hAZ-ar-yX8" firstAttribute="top" secondItem="jkU-zG-Yp9" secondAttribute="top" constant="12" id="sqm-9h-6Lv"/>
                                                                 </constraints>
